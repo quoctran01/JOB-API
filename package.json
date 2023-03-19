@@ -1,0 +1,33 @@
+{
+  "name": "job-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/quoctran01/JOB-API.git"
+  },
+  "keywords": [
+    "job-api"
+  ],
+  "author": "quoctran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quoctran01/JOB-API/issues"
+  },
+  "homepage": "https://github.com/quoctran01/JOB-API#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.2",
+    "nodemon": "^2.0.21"
+  }
+}
